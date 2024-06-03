@@ -1,8 +1,9 @@
 .chat-preview {
-    height: 370px;
-    width: 400px;
+    height: 340.4px;
+    width: 375px;
     margin: 0;
     font-family: Lato, appleLogo, sans-serif;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .channels {
@@ -17,7 +18,7 @@
     display: inline-block;
     font-size: 16px;
     width: 115px;
-    height: 300px;
+    height: 317px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-right: 15px;
@@ -25,9 +26,9 @@
 
 .current-chat {
     display: inline-block;
-    width: 230px;
+    width: 200px;
     font-size: 16px;
-    height: 300px;
+    height: 310px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-right: 12px;
@@ -41,9 +42,8 @@
 .channel-name {
     color: white;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 900;
     padding-left: 12px;
-
 }
 
 .channel-heading, .dm-heading {
@@ -57,22 +57,83 @@
 
 .channel-list, .dm-list {
     color: white;
-    font-size: 9.5px;
-    line-height: 6.25px;
+    font-size: 9px;
+    line-height: 9.5px;
     width: 130px;
 }
 
 .dm-list {
-    padding-left: 11px;
+    padding-left: 12px;
+    line-height: 6.5px;
 }
 
 .channel-highlight {
     margin-top: 0;
-    padding-left: 11px;
-    height: 12px;
+    padding-left: 12px;
+    height: 13px;
     background-color: rgb(18, 100, 163);
 }
 
 .normal {
-    padding-left: 11px;
+    padding-left: 12px;
+}
+
+.current-channel {
+    width: 225px;
+    margin-left: -18px;
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 900;
+    padding-bottom: 12px;
+    border-bottom: 0.75px solid rgba(0, 0, 0, 0.1); /* Change this line */
+}
+
+.profile, .user-chat {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.user-chat {
+    margin-left: 5px;
+}
+
+.username, .comment {
+    font-size: 9.5px;
+}
+
+.comment {
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 2px;
+    width: 165px;
+    line-height: 12.5px;
+    margin-top: 0;
+}
+
+.profile {
+    height: 25px;
+    border-radius: 2px;
+}
+
+.user {
+    margin-top: 10px;
+}
+
+.username {
+    margin-top: 1.5px;
+    margin-left: 2.5px;
+    margin-bottom: 2px;
+}
+
+.file {
+    border: 0.75px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.message {
+    font-size: 9px;
+    width: 198px;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 0.75px solid rgba(0, 0, 0, 0.5);
 }

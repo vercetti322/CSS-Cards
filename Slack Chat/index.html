@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post</title>
+    <title>Slack Chat Preview</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,11 +22,11 @@
                 <div class="channel-list">
                     <div class="normal">
                         <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span>announcements</p>
-                        <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span>cs-marketing</p>
+                        <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span><span style="font-weight: 900;">cs-marketing</span></p>
                         <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span>cs-sales</p>
                         <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span>feedback</p>
                         <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span>product</p>
-                        <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span><strong>proj-billing</strong></p>
+                        <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span><span style="font-weight: 900;">proj-billing</span></p>
                         <p><span style="color: rgb(198, 198, 198); font-weight: bold;" >#&nbsp;&nbsp;</span>proj-vouchers</p>
                     </div>
                     <div class="channel-highlight">
@@ -50,21 +50,41 @@
         </div>
         <div class="current-chat">
             <div class="current-channel">
-
+                # team-cs
             </div>
             <div class="messages">
-                <div class="user-1">
-
+                <div class="user">
+                    <img class="profile" src="./Profile/first-user.png">
+                    <div class="user-chat">
+                        <p class="username"><span style="font-weight: 900;">Sandeep Mishra</span>&nbsp;&nbsp;<span style="font-size: 6px; color: rgba(0, 0, 0, 0.6); font-weight: 700;">12:35</span></p>
+                        <p class="comment">Hey <span style="color: rgb(5, 118, 185); background-color: rgba(29, 155, 209, 0.1); padding: 1.3px; border-radius: 1px;">@channel</span>, quick update: Q4 proposal is done! Let me know if I’ve missed anything.</p>
+                        <div class="file">
+                            <img src="./Profile/drive-logo.png" style="width: 25px; padding-left: 5px; padding-top: 2.5px;">
+                            <div class="group" style="display: inline-block; vertical-align: top;">
+                                <p style="font-size: 10px; padding-left: 7.5px; margin-bottom: 1px; font-weight: bold; margin-top: 4.5px;">Q4 A1 Sites Proposal</p>
+                                <p style="font-size: 8px; padding-left: 7.5px; margin-top: 0; color: rgba(0, 0, 0, 0.5); margin-bottom: 3.5px;">Spreadsheet from Google Drive</p>
+                            </div>
+                        </div>
+                        <img src="./Profile/reacts.png" style="height: 18px; margin-top: 1.7px;">
+                    </div>
                 </div>
-                <div class="user-2">
-                    
+                <div class="user">
+                    <img class="profile" src="./Profile/second-user.png">
+                    <div class="user-chat">
+                        <p class="username"><span style="font-weight: 900;">Fathima Parveen</span>&nbsp;&nbsp;<span style="font-size: 6px; color: rgba(0, 0, 0, 0.6); font-weight: 700;">12:35</span></p>
+                        <p class="comment">Brilliant work here, <span style="color: rgb(5, 118, 185); background-color: rgba(29, 155, 209, 0.1); padding: 1.3px; border-radius: 1px;">@Sandeep Mishra</span>. I reckon you can probably cut my timeline down by a couple of weeks.</p>
+                    </div>
                 </div>
-                <div class="user-3">
-                    
+                <div class="user">
+                    <img class="profile" src="./Profile/first-user.png">
+                    <div class="user-chat">
+                        <p class="username"><span style="font-weight: 900;">Sandeep Mishra</span>&nbsp;&nbsp;<span style="font-size: 6px; color: rgba(0, 0, 0, 0.6); font-weight: 700;">12:35</span></p>
+                        <p class="comment">Will do. Got any other work you want to propose for those weeks?</p>
+                    </div>
                 </div>
             </div>
-            <div class="type">
-
+            <div class="message-box">
+                <input class="message" type="text" placeholder="Message #team-cs">
             </div>
         </div>
     </div>
