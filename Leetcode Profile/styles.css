@@ -82,7 +82,7 @@ body {
 
 .numbers {
     display: grid;
-    grid-template-columns: 2.5fr 2.5fr 1fr 3fr;
+    grid-template-columns: 2.5fr 2.5fr 4fr 0.15fr;
 }
 
 .numbers > div {
@@ -113,6 +113,45 @@ body {
     color: white;
 }
 
-.marker:hover ~ .numbers {
-    
+.ranking-value {
+    color: white;
+    font-size: 10px;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.ranking-heading {
+    margin-bottom: 1px;
+}
+
+.e {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+}
+
+.b {
+    padding: 0;
+    margin: 0;
+}
+
+.b-img {
+    width: 34px;
+    margin-top: -2px;
+    margin-left: 15px;
+}
+
+.d {
+    grid-column: 1 / 4;
+}
+
+.a, .b, .c {
+    border-bottom: 0.9999999px solid rgb(255, 161, 22);
+    height: 30px;
+}
+
+.marker:hover .a,
+.marker:hover .b,
+.marker:hover .c {
+    border-bottom: 0.5px solid rgb(255, 161, 22);
+    opacity: 0.5;
 }
